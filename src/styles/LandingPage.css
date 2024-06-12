@@ -1,47 +1,117 @@
-/* src/styles/LandingPage.css */
-
 .landing-page {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .product-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-  }
-  
-  .product {
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .product img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .product h3 {
-    margin: 10px 0;
-  }
-  
-  .product p {
-    margin: 5px 0;
-  }
-  
-  .product button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .product button:hover {
-    background-color: #0056b3;
-  }
-  
+  font-family: Arial, sans-serif;
+}
+.header {
+  position: fixed; /* Make the navbar fixed */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the navbar spans the full width */
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  z-index: 1000; /* Ensure the navbar stays above other elements */
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar label {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  width: 700px; /* Increase the width as needed */
+}
+
+.auth-cart {
+  display: flex;
+  align-items: center;
+}
+
+.auth-cart button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth-cart button:hover {
+  background-color: #777;
+}
+
+.cart {
+  margin-left: 20px;
+  margin-right: 40px; /* Add right margin to ensure visibility */
+  font-size: 24px;
+}
+
+.carousel {
+  margin: 100px 0 20px; /* Adjust the top margin to account for the fixed header */
+  height: 1000px; /* Adjust the height as needed */
+}
+
+.carousel .slide img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px; /* Add some top margin to ensure products are not hidden behind the fixed header */
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.product-card h2 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.product-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #218838;
+}
