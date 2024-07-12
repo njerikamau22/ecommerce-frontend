@@ -12,7 +12,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Carousel
-  ![My Image](/Images/Block-diagram.png)
+  ![My Image](/Images/carousel.png)
 ## Products 
   ![My Image](/Images/Block-diagram.png)
 The page will reload when you make changes.\
