@@ -13,8 +13,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Carousel
   ![My Image](/Images/carousel.png)
+## Login Screen
+  ![My Image](/Images/loginscreen.png)
 ## Products 
-  ![My Image](/Images/Block-diagram.png)
+  ![My Image](/Images/products.png)
+  
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
